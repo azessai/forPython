@@ -13,3 +13,5 @@ class Complex:
 
 z = Complex(3.0, -4.5)
 z.afficherComplex()
+z = Complex(2.0, 4)
+z.afficherComplex()
