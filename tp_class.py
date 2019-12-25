@@ -1,14 +1,15 @@
 class Complex:
-     def __init__(self, realpart, imagpart):
+    def __init__(self, realpart, imagpart):
          self.r = realpart
          self.i = imagpart
-def afficherComplex(z):
-    if z.i > 0:
-        signe = '+'
-    else:
-        signe = '-'
-    print('z = ', z.r, signe, 'i * ',abs(z.i))
+
+    def afficherComplex(self):
+        if self.i > 0:
+            signe = '+'
+        else:
+            signe = '-'
+        print('z = ', self.r, signe, 'i * ',abs(self.i))
 
 
 z = Complex(3.0, -4.5)
-afficherComplex(z)
+z.afficherComplex()
