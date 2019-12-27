@@ -7,4 +7,4 @@ class Eleve:
 
 eleve1 = Eleve("Mohammed", 17, 170)
 eleve2 = Eleve("Said", 16, 160)
-eleve2 = Eleve("Djelloul", 15)
+eleve3 = Eleve("Djelloul", 15)
